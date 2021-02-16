@@ -1,0 +1,6 @@
+version: '3.8'
+services:
+  reaction-timer:
+    image: "mf2113/reactiontimer"
+    ports:
+      - "80:5000"
