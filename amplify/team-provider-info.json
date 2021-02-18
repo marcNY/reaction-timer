@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-reactiontimer-dev-163220-authRole",
+      "UnauthRoleArn": "arn:aws:iam::883403107616:role/amplify-reactiontimer-dev-163220-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::883403107616:role/amplify-reactiontimer-dev-163220-authRole",
+      "Region": "eu-central-1",
+      "DeploymentBucketName": "amplify-reactiontimer-dev-163220-deployment",
+      "UnauthRoleName": "amplify-reactiontimer-dev-163220-unauthRole",
+      "StackName": "amplify-reactiontimer-dev-163220",
+      "StackId": "arn:aws:cloudformation:eu-central-1:883403107616:stack/amplify-reactiontimer-dev-163220/54efa910-7135-11eb-9ac0-06c9f537b15e",
+      "AmplifyAppId": "d32i8j8ygfp9p8"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d32i8j8ygfp9p8",
+          "type": "cicd"
+        }
+      }
+    }
+  }
+}

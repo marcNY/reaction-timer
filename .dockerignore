@@ -1,9 +1,0 @@
-# Elastic Beanstalk Files
-.elasticbeanstalk/*
-.git
-.gitignore
-
-#Nodes files
-.DS_Store
-node_modules
-/dist
