@@ -3,7 +3,9 @@
     <h1>Reaction Timer</h1>
     <Results :score="score" v-if="showResults" />
     <button @click="start" :disabled="isPlaying">play</button>
-    <Block :delay="delay" v-if="isPlaying" @end="endGame"/>
+    <div class="playArea">
+      <Block :delay="delay" v-if="isPlaying" @end="endGame"/>
+    </div>
   </div>
 </template>
 
@@ -45,5 +47,14 @@ export default {
   text-align: center;
   color: #444;
   margin-top: 60px;
+}
+.playArea {
+  border-radius: 25px;
+  border: 2px solid #1c1d1b;
+  margin: 20px auto;
+  padding: 20px;
+  width: 50vh;
+  height: 50vh;
+  position: relative;
 }
 </style>
